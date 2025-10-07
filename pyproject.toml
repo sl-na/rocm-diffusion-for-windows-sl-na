@@ -5,10 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "diffusers>=0.35.1",
+    "accelerate>=1.10.1",
+    "diffusers>=0.35.0",
+    "huggingface-hub>=0.35.3",
+    "protobuf>=6.32.1",
+    "sentencepiece>=0.2.1",
     "torch",
     "torchaudio",
     "torchvision",
+    "transformers>=4.44.0,<4.50.0",
 ]
 
 [tool.uv.sources]
