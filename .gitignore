@@ -9,5 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
+# Ruff cache directory
+.ruff_cache/
+
 # Output images
 images/*
